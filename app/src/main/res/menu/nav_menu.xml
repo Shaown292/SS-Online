@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/website"
+            android:icon="@drawable/ic_baseline_web_24"
+            android:title="Website" />
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About us" />
+
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/dev_by"
+                    android:icon="@drawable/ic_baseline_logo_dev_24"
+                    android:title="Developed By" />
+
+
+            </group>
+        </menu>
+    </item>
+
+
+
+
+
+
+
+</menu>

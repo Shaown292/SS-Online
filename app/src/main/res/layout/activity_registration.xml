@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Welcome Back"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:letterSpacing="0.03"
+            android:text="Sign Up to continue"
+            android:textColor="#FBC02D"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Register"
+        android:textColor="@color/ssonline"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_reg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Full Name"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+               />
+            <EditText
+                android:id="@+id/name_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/forgot"
+                android:enabled="true"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="Enter your user name"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+
+            <TextView
+                android:id="@+id/txt_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_box"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="User Name"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:id="@+id/username_box"
+                android:layout_below="@+id/txt_username"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/forgot"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="Enter your user name"/>
+
+            <TextView
+                android:id="@+id/txt_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username_box"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Email"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/mail_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/forgot"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="Enter the Email"/>
+
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mail_box"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Mobile No"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/phone_no_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/forgot"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="Enter your mobile number"
+                />
+
+
+            <Button
+                android:id="@+id/btn_Reg"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/phone_no_box"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/poppins_regular"
+                android:onClick="registerUser"
+                android:text="Register"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="InvalidId" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

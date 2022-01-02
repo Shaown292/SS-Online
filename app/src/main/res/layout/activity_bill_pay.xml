@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bill_pay"
+    >
+
+    <ImageView
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/back_button"
+        android:padding="5dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        android:background="@drawable/back"
+        />
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:id="@+id/pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_button"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Pay Internet Bill"
+        android:textColor="@color/ssonline"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/please"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pay"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Please enter your User ID, Bkash number and Transaction id below"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/userID"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/please"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/box"
+        android:drawableLeft="@drawable/ic_baseline_person"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="User name"
+        android:inputType="number"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/mobileNumber"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/userID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/box"
+        android:drawableLeft="@drawable/bangladesh"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Mobile number"
+        android:inputType="number"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/mobileNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/box"
+        android:drawableLeft="@drawable/transaction"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Transaction ID"
+        android:inputType="number"
+        android:paddingLeft="10dp" />
+
+    <Button
+
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/editTextNumber3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Confirm" />
+
+
+</RelativeLayout>

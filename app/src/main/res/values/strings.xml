@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SS Online</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="whats_router">রাউটার হল এমন একটি ডিভাইস যা  আপনার বাড়ির ইন্টারনেটের সাথে সংযুক্ত থাকা  ডিভাইসগুলির মধ্যে যোগাযোগ করে যা । এর নাম থেকে বোঝা যায়, এটি ডিভাইস এবং ইন্টারনেটের মধ্যে ট্রাফিককে "রুট" করে।
+
+আপনার বাড়িতে ভাল মানের রাউটারের সাহায্যে, আপনি দ্রুত ইন্টারনেট সেবা উপভোগ করতে পারবেন, সাইবার হুমকি থেকে আপনার পরিবারকে রক্ষা করতে সাহায্য করতে পারবেন এবং  Open-Wi-Fi ডেড স্পট এড়াতে পারবেন।
+
+একটি ভাল রাউটার কী অফার করে তা জানার জন্য আপনাকে কম্পিউটার এক্সপার্ট হতে হবে না।  কিভাবে একটি ভাল রাউটার কাজ করে থাকে তা জানার জন্য আপনাকে শুধুমাত্র রাউটারের কার্যপ্রণালি সম্পর্কে অবগত থাকলে হবে।</string>
+    <string name="better_speed">১.রাউটারটি বন্ধ করুন এবং আবার চালু করুন\n
+২.আপনার রাউটারকে একটু খোলামেলা যায়গায় রাখতে চেষ্টা করুন।\n
+৩.আপনার রাউটারের অ্যান্টেনা সামঞ্জস্য করুন।\n
+৪.আপনি সঠিক ফ্রিকোয়েন্সি ব্যান্ডে আছেন তা নিশ্চিত করুন।\n
+৫.অপ্রয়োজনীয় সংযোগ ছাঁটাই করুন\n
+৬.আপনার Wi-Fi ফ্রিকোয়েন্সি চ্যানেল পরিবর্তন করুন।\n
+৭.আপনার রাউটারের ফার্মওয়্যার আপডেট করুন।</string>
+    <string name="tp_link">আপনি যদি একটি নতুন TP-Link রাউটার কিনে থাকেন, তাহলে রাউটার কনফিগার করা এবং সেট আপ করা সত্যিই সহজ। আপনি সহজেই আপনার নতুন TP-Link Wi-Fi রাউটার সেট আপ করতে পারেন এবং এটি ব্যবহার করতে সক্ষম হবেন৷\n
+\nআপনার নতুন টিপি-লিঙ্ক রাউটার সেট আপ করতে এই নির্দেশিকা অনুসরণ করুন -\n\n
+১। রাউটার চালু করুন এবং একটি ইথারনেট কেবল ব্যবহার করে আপনার পিসিকে রাউটারের সাথে সংযুক্ত করুন।\n
+        ২।একবার সংযুক্ত হয়ে গেলে, একটি ওয়েব ব্রাউজার খুলুন এবং <b>192.168.0.1 বা www.tplinkwifi.net</b> -এ যান।\n
+৩। আপনার রাউটার লগইন পাসওয়ার্ডটি দুবার প্রবেশ করে সেট করুন। এটি সহজভাবে রাখাই ভালো For example - admin।\n
+৪। Lets Get Started/Login-এ ক্লিক করুন।\n
+৫।এখন, অন-স্ক্রীন নির্দেশাবলী অনুসরণ করুন এবং দ্রুত সেটআপ বিকল্পটি ব্যবহার করে আপনার ইন্টারনেট এবং ওয়্যারলেস নেটওয়ার্ক কনফিগার করুন।\n
+৬।প্রদত্ত ক্ষেত্রে আপনার ওয়্যারলেস নেটওয়ার্কের জন্য নাম (SSID) লিখুন এবং এছাড়াও, আপনার Wi-Fi নেটওয়ার্ক সুরক্ষিত করতে একটি পাসওয়ার্ড সেট করুন৷\n
+৭।এখন, আপনি প্রক্রিয়াটি শেষ করতে পারেন, তারপরে আপনি আপনার পাসওয়ার্ড ব্যবহার করে SSID-এর সাথে ওয়্যারলেস সংযোগে যোগদান করতে সক্ষম হবেন৷</string>
+    <string name="tenda"> আপনি যদি একটি নতুন TP-Link রাউটার কিনে থাকেন, তাহলে রাউটার কনফিগার করা এবং সেট আপ করা সত্যিই সহজ। আপনি সহজেই আপনার নতুন TP-Link Wi-Fi রাউটার সেট আপ করতে পারেন এবং এটি ব্যবহার করতে সক্ষম হবেন৷\n
+\nআপনার নতুন টিপি-লিঙ্ক রাউটার সেট আপ করতে এই নির্দেশিকা অনুসরণ করুন -\n\n
+১। রাউটার চালু করুন এবং একটি ইথারনেট কেবল ব্যবহার করে আপনার পিসিকে রাউটারের সাথে সংযুক্ত করুন।\n
+২।একবার সংযুক্ত হয়ে গেলে, একটি ওয়েব ব্রাউজার খুলুন এবং <b>192.168.0.1</b> -এ যান।\n
+৩। আপনার রাউটার লগইন পাসওয়ার্ডটি দুবার প্রবেশ করে সেট করুন। এটি সহজভাবে রাখাই ভালো For example - <b>admin</b>\n
+৪। Lets Get Started/Login-এ ক্লিক করুন।\n
+৫।এখন, অন-স্ক্রীন নির্দেশাবলী অনুসরণ করুন এবং দ্রুত সেটআপ বিকল্পটি ব্যবহার করে আপনার ইন্টারনেট এবং ওয়্যারলেস নেটওয়ার্ক কনফিগার করুন।\n
+৬।প্রদত্ত ক্ষেত্রে আপনার ওয়্যারলেস নেটওয়ার্কের জন্য নাম (SSID) লিখুন এবং এছাড়াও, আপনার Wi-Fi নেটওয়ার্ক সুরক্ষিত করতে একটি পাসওয়ার্ড সেট করুন৷\n
+৭।এখন, আপনি প্রক্রিয়াটি শেষ করতে পারেন, তারপরে আপনি আপনার পাসওয়ার্ড ব্যবহার করে SSID-এর সাথে ওয়্যারলেস সংযোগে যোগদান করতে সক্ষম হবেন৷ </string>
+    <string name="background"><b>SS Online</b> started its journey in 2010 when internet or virtual networking was not very popular and business related to technologies were very rare. As the internet services were very expensive and the customers were mostly corporate institutions, the investment on these technological field was very risky. Moreover, internationally there was weak internet connection with low bandwidth activity which created high chance of risk to reach to the local customers.
+</string>
+    <string name="mission">The young initiators of SS Online took the risk to serve internet service with a dream to reach customers from every profession. This initiative has changed the definition of networking where people learned about the internet facilities and now SS Online is one of the leading internet service provider in Dhaka. This accomplishment wound up conceivable as a result of Strong Decision making, proper business systems and liability towards clients.
+</string>
+    <string name="vision">Proper structure and strategies of providing internet service helped us to update new features and technology for our valued customer. Customer satisfaction and ease of internet access with security features are the keys of this company’s fame
+</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

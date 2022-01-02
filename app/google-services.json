@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389721544440",
+    "project_id": "ss-online-3a594",
+    "storage_bucket": "ss-online-3a594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389721544440:android:b1581794f2526f20c7cd0d",
+        "android_client_info": {
+          "package_name": "com.syssolution.ssonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389721544440-je79975bqljavgvs22sllmi5s5s10bfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqOmsZXl6jNU13CRUR6PjvMQ3FoOzSRCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389721544440-je79975bqljavgvs22sllmi5s5s10bfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

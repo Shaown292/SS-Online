@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.syssolution.ssonline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SSOnline"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Special_offer"
+            android:exported="false" />
+        <activity
+            android:name=".Notification"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Registration_form"
+            android:exported="false" />
+        <activity
+            android:name=".Log_in"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Guide"
+            android:exported="false" />
+        <activity
+            android:name=".Packages"
+            android:exported="false" />
+        <activity
+            android:name=".Cov_Area"
+            android:exported="false" />
+        <activity
+            android:name=".ftp.Newspaper"
+            android:exported="false" />
+        <activity
+            android:name=".ftp.ftp5"
+            android:exported="false" />
+        <activity
+            android:name=".ftp.ftp4"
+            android:exported="false" />
+        <activity
+            android:name=".ftp.ftp3"
+            android:exported="false" />
+        <activity
+            android:name=".ftp.ftp2"
+            android:exported="false" />
+        <activity
+            android:name=".ftp.ftp1"
+            android:exported="false" />
+        <activity
+            android:name=".FTP"
+            android:exported="false" />
+        <activity
+            android:name=".live_tv.LiveTv6"
+            android:exported="false" />
+        <activity
+            android:name=".live_tv.LiveTv5"
+            android:exported="false" />
+        <activity
+            android:name=".live_tv.LiveTv4"
+            android:exported="false" />
+        <activity
+            android:name=".live_tv.LiveTv3"
+            android:exported="false" />
+        <activity
+            android:name=".live_tv.LiveTv2"
+            android:exported="false" />
+        <activity
+            android:name=".Browser"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".Live_tv"
+            android:exported="false" />
+        <activity
+            android:name=".Bill_pay"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_us"
+            android:exported="false" />
+        <activity
+            android:name=".about_us"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".OtpGet"
+            android:exported="false" />
+        <activity
+            android:name=".Phone_Verification"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
