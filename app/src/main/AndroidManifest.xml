@@ -21,19 +21,11 @@
         <activity
             android:name=".Registration"
             android:exported="false" />
-        <activity
-            android:name=".Registration_form"
-            android:exported="false" />
-        <activity
-            android:name=".Log_in"
-            android:exported="false" />
+
         <activity
             android:name=".Profile"
             android:exported="false" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
+
         <activity
             android:name=".Guide"
             android:exported="false" />
@@ -80,7 +72,7 @@
             android:name=".live_tv.LiveTv2"
             android:exported="false" />
         <activity
-            android:name=".Browser"
+            android:name=".live_tv.Browser"
             android:configChanges="orientation|screenSize"
             android:exported="false" />
         <activity

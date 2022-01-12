@@ -7,7 +7,6 @@
     tools:context=".Registration">
 
 
-
     <LinearLayout
         android:id="@+id/linear"
         android:layout_width="match_parent"
@@ -172,19 +171,18 @@
 
 
             <Button
+                android:layout_gravity="center"
                 android:id="@+id/btn_Reg"
-                android:layout_width="340dp"
+                android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_below="@+id/phone_no_box"
-                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
-                android:background="@drawable/button"
+                android:backgroundTint="@color/ssonline"
                 android:fontFamily="@font/poppins_regular"
                 android:onClick="registerUser"
                 android:text="Register"
                 android:textColor="#fff"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                android:textSize="16sp"
                 tools:ignore="InvalidId" />
 
 

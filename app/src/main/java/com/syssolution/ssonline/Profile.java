@@ -1,11 +1,9 @@
 package com.syssolution.ssonline;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,7 +17,7 @@ public class Profile extends AppCompatActivity {
     EditText full_name, email_address, mobile, address, user_name;
     TextView full_name_label, user_name_label;
     String _name, _phone, _u_name, _email;
-    ImageView btn_back;
+
 
     SharedPreferences sharedPreferences;
     private static final String SHR_NAME = "my_pref_name";
@@ -41,16 +39,7 @@ public class Profile extends AppCompatActivity {
         user_name = findViewById(R.id.username_profile);
         full_name_label = findViewById(R.id.fullname_label);
         user_name_label = findViewById(R.id.username_label);
-        btn_back = findViewById(R.id.back_button);
 
-
-        btn_back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Profile.this, Homepage.class);
-                startActivity(intent);
-            }
-        });
 
         sharedPreferences = getSharedPreferences(SHR_NAME, MODE_PRIVATE);
         reference = FirebaseDatabase.getInstance().getReference("users");

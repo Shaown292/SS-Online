@@ -1,4 +1,4 @@
-package com.syssolution.ssonline;
+package com.syssolution.ssonline.live_tv;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -11,6 +11,8 @@ import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.syssolution.ssonline.R;
 
 public class Browser extends AppCompatActivity {
 

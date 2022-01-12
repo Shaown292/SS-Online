@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.syssolution.ssonline.live_tv.Browser;
 import com.syssolution.ssonline.live_tv.LiveTv2;
 import com.syssolution.ssonline.live_tv.LiveTv3;
 import com.syssolution.ssonline.live_tv.LiveTv4;

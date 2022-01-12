@@ -10,7 +10,7 @@
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/drawable/border.xml" value="0.2203125" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/drawable/border_left.xml" value="0.2203125" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/drawable/border_right.xml" value="0.2203125" />
-        <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/drawable/box.xml" value="0.33" />
+        <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/drawable/box.xml" value="0.25" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/drawable/button.xml" value="0.2203125" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/drawable/contact.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/drawable/curved_background.xml" value="0.15" />
@@ -42,7 +42,7 @@
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_about_us.xml" value="0.25" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_bill_pay.xml" value="0.25" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_browser.xml" value="0.1" />
-        <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_contact_us.xml" value="0.33" />
+        <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_contact_us.xml" value="0.25" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_cov_area.xml" value="0.22" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_coverage_area.xml" value="0.22" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_ftp.xml" value="0.33" />
@@ -55,7 +55,7 @@
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_guidebook.xml" value="0.1" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_home_page.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_home_page2.xml" value="0.1" />
-        <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_homepage.xml" value="0.33" />
+        <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_homepage.xml" value="0.22" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_live_tv.xml" value="0.22" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_live_tv2.xml" value="0.1" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_live_tv3.xml" value="0.20416666666666666" />
@@ -64,7 +64,7 @@
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_live_tv6.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_log_in.xml" value="0.25" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_newspaper.xml" value="0.1" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_notification.xml" value="0.25" />
         <entry key="..\:/Users/SYSSOLUTIONS/AndroidStudioProjects/SSOnline/app/src/main/res/layout/activity_otp.xml" value="0.25" />

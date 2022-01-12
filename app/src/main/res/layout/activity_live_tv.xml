@@ -21,14 +21,14 @@
 
     <TextView
         android:id="@+id/pack"
-        android:layout_marginStart="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins_bold"
+        android:layout_below="@id/back_button"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Live TV"
         android:textColor="@color/ssonline"
-        android:layout_below="@id/back_button"
         android:textSize="32sp" />
 
 
@@ -48,9 +48,9 @@
             android:layout_weight="1"
             android:id="@+id/LT1"
             android:layout_width="110dp"
-            android:layout_height="155dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
             android:layout_marginEnd="15dp"
-            android:background="@drawable/curved_background"
             android:orientation="vertical">
 
             <ImageView
@@ -66,16 +66,17 @@
                 android:text="Live TV 1"
                 android:textColor="@color/ssonline"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_weight="1"
             android:id="@+id/LT2"
             android:layout_width="110dp"
-            android:layout_height="155dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
             android:layout_marginEnd="15dp"
-            android:background="@drawable/curved_background"
             android:orientation="vertical">
 
             <ImageView
@@ -100,9 +101,9 @@
             android:layout_weight="1"
             android:id="@+id/LT3"
             android:layout_width="110dp"
-            android:layout_height="155dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
             android:layout_marginEnd="15dp"
-            android:background="@drawable/curved_background"
             android:orientation="vertical">
 
             <ImageView
@@ -137,12 +138,12 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_weight="1"
             android:id="@+id/LT4"
             android:layout_width="110dp"
-            android:layout_height="155dp"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="15dp"
-            android:background="@drawable/curved_background"
+            android:layout_weight="1"
+            android:background="@drawable/box"
             android:orientation="vertical">
 
             <ImageView
@@ -156,6 +157,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
                 android:text="Live TV 4"
                 android:textColor="@color/ssonline"
                 android:textSize="20sp"
@@ -163,12 +165,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:id="@+id/LT5"
             android:layout_width="110dp"
-            android:layout_height="155dp"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="15dp"
-            android:background="@drawable/curved_background"
+            android:layout_weight="1"
+            android:background="@drawable/box"
             android:orientation="vertical">
 
             <ImageView
@@ -182,6 +184,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
                 android:text="Live TV 5"
                 android:textColor="@color/ssonline"
                 android:textSize="20sp"
@@ -190,12 +193,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:id="@+id/LT6"
             android:layout_width="110dp"
-            android:layout_height="155dp"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="15dp"
-            android:background="@drawable/curved_background"
+            android:layout_weight="1"
+            android:background="@drawable/box"
             android:orientation="vertical">
 
             <ImageView
@@ -209,6 +212,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
                 android:text="Live TV 6"
                 android:textColor="@color/ssonline"
                 android:textSize="20sp"

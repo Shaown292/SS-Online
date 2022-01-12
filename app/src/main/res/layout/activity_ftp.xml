@@ -199,8 +199,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginTop="-9dp"
-                    android:src="@drawable/ftp_newspaper"
-                    app:srcCompat="@drawable/ic_baseline_newspaper_24" />
+                    android:src="@drawable/ic_baseline_newspaper_24"/>
 
                 <TextView
                     android:layout_width="wrap_content"
